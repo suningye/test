@@ -12,6 +12,7 @@ class TestController {
     @GetMapping("/test")
     fun testCon(): HttpStatus {
         print("1new")
+        print("2new")
         return HttpStatus.OK
     }
 }
