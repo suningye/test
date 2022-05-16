@@ -13,6 +13,7 @@ class TestController {
     fun testCon(): HttpStatus {
         print("1commint")
         print("2commint")
+        print("3commint")
         return HttpStatus.OK
     }
 }
