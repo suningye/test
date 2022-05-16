@@ -11,6 +11,7 @@ class TestController {
 
     @GetMapping("/test")
     fun testCon(): HttpStatus {
+        print("1commint")
         return HttpStatus.OK
     }
 }
