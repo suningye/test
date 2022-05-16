@@ -16,6 +16,7 @@ class TestController {
         print("6new")
         print("2new")
         print("3new")
+        print("4new")
         return HttpStatus.OK
     }
 }
