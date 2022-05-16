@@ -12,14 +12,6 @@ class TestController {
     @GetMapping("/test")
     fun testCon(): HttpStatus {
         print("1new")
-        print("2new")
-        print("3new")
-        print("4new")
-        print("5new")
-        print("6new")
-        print("7new")
-        print("8new")
-        print("9new")
         return HttpStatus.OK
     }
 }
