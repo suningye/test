@@ -14,6 +14,7 @@ class TestController {
         //test 1
         //test 2
         print("1new")
+        print("2new")
         return HttpStatus.OK
     }
 }
